@@ -25,3 +25,7 @@ repos:
     rev: 77c3c6a34b2577d71083442326c60b8fd58926ec  # frozen: v8.18.4
     hooks:
       - id: gitleaks
+  - repo: https://github.com/pylint-dev/pylint
+    rev: v2.17.2
+    hooks:
+      - id: pylint
